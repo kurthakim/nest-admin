@@ -1,0 +1,44 @@
+### Show Users
+GET http://localhost:8000/api/users
+# ?page=1
+
+### Create a user
+POST http://localhost:8000/api/users
+Content-Type: application/json
+
+{
+  "first_name": "a",
+  "last_name": "a",
+  "email": "a@a.com",
+  "role_id": 1
+}
+### Get user by ID
+GET http://localhost:8000/api/users/1
+
+### Update user
+PUT http://localhost:8000/api/users/1
+Content-Type: application/json
+
+{
+  "role_id": 3
+}
+
+### Update user info
+PUT http://localhost:8000/api/users/info
+Content-Type: application/json
+
+{
+  "first_name": "updated"
+}
+
+### Update user password
+PUT http://localhost:8000/api/users/password
+Content-Type: application/json
+
+{
+  "password":"1234",
+  "password_confirm": "1234"
+}
+
+### Delete user
+DELETE http://localhost:8000/api/users/4

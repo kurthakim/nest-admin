@@ -1,0 +1,34 @@
+### Register a user
+POST http://localhost:8000/api/register
+Content-Type: application/json
+
+{
+  "first_name": "f",
+  "last_name": "f",
+  "email": "f@f.com",
+  "password": "f",
+  "password_confirm": "f"
+
+}
+
+### Login user
+POST http://localhost:8000/api/login
+Content-Type: application/json
+
+{
+  "email": "c@c.com",
+  "password": "c"
+}
+
+### Get user from cookie
+GET http://localhost:8000/api/user
+Content-Type: application/json
+
+{
+  "email": "b@b.com",
+  "password": "b"
+}
+
+### Logout user
+POST http://localhost:8000/api/logout
+Content-Type: application/json

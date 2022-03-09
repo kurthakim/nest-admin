@@ -1,0 +1,30 @@
+### Show products
+GET http://localhost:8000/api/products
+# ?page=1
+
+### Create a product
+POST http://localhost:8000/api/products
+Content-Type: application/json
+
+{
+  "title": "product",
+  "description": "desc",
+  "image": "image",
+  "price": 20
+}
+### Get product by ID
+GET http://localhost:8000/api/products/1
+
+### Update product
+PUT http://localhost:8000/api/products/1
+Content-Type: application/json
+
+{
+  "title": " new product",
+  "description": "desc",
+  "image": "image",
+  "price": 20
+}
+
+### Delete product
+DELETE http://localhost:8000/api/products/4

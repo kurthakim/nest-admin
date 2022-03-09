@@ -1,0 +1,2 @@
+### get all permissions
+GET http://localhost:8000/api/permissions

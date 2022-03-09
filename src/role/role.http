@@ -1,0 +1,26 @@
+### get all roles
+GET http://localhost:8000/api/roles
+
+### Create a role
+POST http://localhost:8000/api/roles
+Content-Type: application/json
+
+{
+  "name": "Test",
+  "permissions": [2, 4]
+}
+
+### Get role by ID
+GET http://localhost:8000/api/roles/4
+
+### Update a role
+PUT http://localhost:8000/api/roles/1
+Content-Type: application/json
+
+{
+  "name": "Admin",
+  "permissions": [1]
+}
+
+### Delete a role
+DELETE http://localhost:8000/api/roles/1

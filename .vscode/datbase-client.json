@@ -1,0 +1,45 @@
+{
+    "database.connections": {
+        "1646411896192": {
+            "host": "localhost",
+            "dbPath": "",
+            "port": "33066",
+            "user": "root",
+            "authType": "default",
+            "password": "root",
+            "encoding": "utf8",
+            "clientKeyPath": null,
+            "clientCertPath": null,
+            "caPath": null,
+            "database": "admin",
+            "useSSL": false,
+            "useClearText": false,
+            "usingSSH": false,
+            "showHidden": false,
+            "includeDatabases": null,
+            "dbType": "MySQL",
+            "encrypt": true,
+            "hideSystemSchema": true,
+            "isCluster": false,
+            "connectionUrl": "",
+            "srv": false,
+            "esAuth": "none",
+            "global": false,
+            "key": "1646411896192",
+            "timezone": "+00:00",
+            "ssh": {
+                "host": "",
+                "privateKeyPath": "/home/kurt/.ssh/id_rsa",
+                "port": 22,
+                "username": "root",
+                "type": "password",
+                "connectTimeout": 10000,
+                "algorithms": {
+                    "cipher": []
+                }
+            },
+            "name": "localhost",
+            "connectionKey": "database.connections"
+        }
+    }
+}
